@@ -6,6 +6,43 @@
 </head>
 <body>
     <header>
+        <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazon Clone</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Cabeçalho -->
+    <header>
+        <div class="logo">
+            <h1>Amazon</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#">Início</a></li>
+                <li><a href="#">Categorias</a></li>
+                <li><a href="#">Ofertas do Dia</a></li>
+                <li><a href="#">Seus Pedidos</a></li>
+                <li><a href="#">Atendimento ao Cliente</a></li>
+            </ul>
+        </nav>
+        <div class="cart">
+            <a href="#" id="cart-button">Carrinho (0)</a>
+        </div>
+    </header>
+
+    <!-- Carrossel de Produtos -->
+    <section class="carousel">
+        <!-- Os produtos do carrossel serão adicionados aqui via JavaScript -->
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
         <div class="logo">
             <img src="amazon_logo.png" alt="Amazon Logo">
         </div>
@@ -21,6 +58,20 @@
             <!-- Os produtos serão adicionados dinamicamente aqui -->
         </div>
     </section>
+    <div class="product">
+        <img src="product2.jpg" alt="Produto 2">
+        <h2>Produto 2</h2>
+        <p>Descrição do Produto 2...</p>
+        <span>R$ 79,00</span>
+        <button class="add-to-cart-button">Adicionar ao Carrinho</button>
+    </div>
+    <div class="product">
+        <img src="product3.jpg" alt="Produto 3">
+        <h2>Produto 3</h2>
+        <p>Descrição do Produto 3...</p>
+        <span>R$ 149,00</span>
+        <button class="add-to-cart-button">Adicionar ao Carrinho</button>
+    </div>
 
     <footer>
         <p>&copy; 2023 Amazon. All rights reserved.</p>
