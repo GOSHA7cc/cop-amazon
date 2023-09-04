@@ -1,0 +1,87 @@
+/* Estilos gerais */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Estilos para o cabeçalho */
+  header {
+    background-color: #232f3e;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+  }
+  
+  /* Estilos para o conteúdo principal */
+  main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Estilos para cada item do carrinho */
+  .cart-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    padding: 10px;
+  }
+  
+  .cart-item img {
+    max-width: 100px;
+    height: auto;
+    margin-right: 10px;
+  }
+  
+  .cart-item-details {
+    flex: 1;
+  }
+  
+  .cart-item h2 {
+    margin: 0;
+    font-size: 18px;
+  }
+  
+  .cart-item p {
+    margin: 5px 0;
+    font-size: 14px;
+    color: #666;
+  }
+  
+  .remove-button {
+    padding: 10px 20px;
+    background-color: #febd69;
+    border: none;
+    border-radius: 4px;
+    color: #232f3e;
+    cursor: pointer;
+  }
+  
+  /* Estilos para o total do carrinho e botão de checkout */
+  .cart-total {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #ccc;
+    padding: 10px;
+  }
+  
+  .checkout-button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  /* Estilos para o rodapé */
+  footer {
+    background-color: #232f3e;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+  }
+  
